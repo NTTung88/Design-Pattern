@@ -1,0 +1,36 @@
+package Lab02_01.dp.tdtu;
+
+public class SelectionSortStrategy implements ISortStrategy{
+	public void sort(Comparable[] data ,int count) {
+		for (int i = 0; i < count; i++) {
+		      // find index of smallest element
+		         int smallest = findSmallest(data, i, count);
+		      // swap smallest with current position in array
+		         Comparable temp = data[smallest];
+		         data[smallest] = data[i];
+		         data[i] = temp;
+		      //print the array to show each step
+		         if(Sort.display){  
+		            Sorting.print(array, start, end);
+		         }
+		      }
+		   }
+	}
+	private static int findSmallest(Comparable[] array, int start, int end) {
+	    int smallest = start; // the index of the smallest element
+	 // loop from current position to end of array
+	    for (int i = start; i <= end; i++) {
+	    // if find a smaller element, then save the index
+	       if (array[i].compareTo(array[smallest]) < 0) {
+	          smallest = i;
+	       }
+	    }
+	 //details on smallest index
+	    if(Sorting.display){  
+	       System.out.println("start index = " + start);
+	       System.out.println("smallest index = " + smallest);
+	       System.out.println("swap " + array[start] + " with " + array[smallest]);
+	    }
+	    return smallest;
+	 }
+}

@@ -1,0 +1,23 @@
+1611124334315	Delete element
+1611124346265	Delete element
+1611125295435	Delete element
+1611125302391	Delete element
+1611126066325	Rename type 'insertionSortStrategy'
+1611126075081	Rename type 'selectionSortStrategy'
+1611126084953	Rename type 'studentList'
+1611126212958	Rename type 'iSortStrategy'
+1611220770084	Convert local variable 'studentList' to field
+1611220803542	Encapsulate field 'studentList'
+1611220825162	Inline local variable 'st2'
+1611220834285	Inline local variable 'count'
+1611220939962	Infer generic type arguments
+1611220950051	Infer generic type arguments
+1611220960435	Infer generic type arguments
+1611229695771	Infer generic type arguments
+1611230658429	Infer generic type arguments
+1611233039474	Infer generic type arguments
+1611233094649	Infer generic type arguments
+1611233121319	Infer generic type arguments
+1611233128170	Infer generic type arguments
+1611233132274	Infer generic type arguments
+1611234155799	Infer generic type arguments

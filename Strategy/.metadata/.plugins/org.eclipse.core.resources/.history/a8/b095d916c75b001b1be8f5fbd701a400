@@ -1,0 +1,56 @@
+package Lab02_01.dp.tdtu;
+
+import java.util.Arrays;
+
+public class StudentList {
+
+	private Student[] student;
+	private int count;
+	private ISortStrategy sortStrategy;
+	
+	
+	public StudentList(Student[] student,int count,ISortStrategy sortStrategy) {
+		super();
+		this.student= new Student[100];
+		this.count=0;
+		this.sortStrategy=sortStrategy;
+	}
+	
+	public Student[] getStudent() {
+		return student;
+	}
+	public void setStudent(Student[] student) {
+		this.student = student;
+	}
+	public int getCount() {
+		return count;
+	}
+	public void setCount(int count) {
+		this.count = count;
+	}
+	public ISortStrategy getSortStrategy() {
+		return sortStrategy;
+	}
+	public void setSortStrategy(ISortStrategy sortStrategy) {
+		this.sortStrategy = sortStrategy;
+	}
+	
+	public void addStudent(Student[] student,Student e) {
+		student =Arrays.copyOf(student,count+1);
+		student[count -1] = e;
+	}
+	
+	public void sort() {
+		//
+	}
+	
+	public void display() {	
+		//
+	}
+	@Override
+	public String toString() {
+		return "StudentList [student=" + Arrays.toString(student) + ", count=" + count + ", sortStrategy="
+				+ sortStrategy + "]";
+	}
+	
+}

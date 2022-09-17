@@ -1,0 +1,42 @@
+package Lab02_01.dp.tdtu;
+
+import java.util.Date;
+
+public class Student {
+	private String code;
+	private String name;
+	private Date birthDate;
+	
+	
+	public Student(String code, String name, Date birthDate) {
+		super();//gọi lại hàm dựng ở lớp cha
+		this.code= code;
+		this.name=name;
+		this.birthDate=birthDate;
+		// TODO Auto-generated constructor stub
+	}
+	public String getCode() {
+		return code;
+	}
+	public void setCode(String code) {
+		this.code = code;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Date getBirthDate() {
+		return birthDate;
+	}
+	public void setBirthDate(Date birthDate) {
+		this.birthDate = birthDate;
+	}
+	@Override
+	public String toString() {
+		return "Student [code=" + code + ", name=" + name + ", birthDate=" + birthDate + "]";
+	}
+	
+	
+}

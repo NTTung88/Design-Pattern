@@ -1,0 +1,32 @@
+package Lab02_01.dp.tdtu;
+
+import java.util.Arrays;
+
+public class DataBase {
+//public Student[] student = new Student[100] ;
+public void init() {
+	 	Student[] student = new Student[100] ;
+	 	
+		Student student1 = new Student("IT","Tung",null);
+		Student student2 = new Student("IT","Khang",null);
+		
+		StudentList st1 = new StudentList(student,100,null);
+
+		//In ra  Từng Sinh viên;
+		System.out.println(student1.toString());
+		System.out.println(student2.toString());
+		
+		//In ra danh sách Sinh viên
+		System.out.println(st1.toString());
+		
+		st1.addStudent(student1);
+		st1.addStudent(student2);
+		
+		System.out.println(student.toString());
+		
+	}
+@Override
+public String toString() {
+	return "DataBase [student=" + Arrays.toString(student) + "]";
+}
+}

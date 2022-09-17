@@ -1,0 +1,17 @@
+package Lab02_01.dp.tdtu;
+
+public class DataBase {
+public Student[] students = new Student[100] ;
+public void init() {
+		Student student = new Student("IT","Tung",null);
+		StudentList st1 = new StudentList(students,100,null);
+
+		System.out.println(student.toString());
+		System.out.println(st1.toString());
+		
+		st1.addStudent(students,student);
+		
+		System.out.println(students);
+		
+	}
+}

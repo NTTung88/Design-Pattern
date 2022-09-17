@@ -1,0 +1,30 @@
+package Lab02_01.dp.tdtu;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Date;
+import java.util.List;
+
+public class DataBase {
+//	public List<Student> student= new ArrayList<Student>();
+	public Student[] student= new Student[100];
+	public void init() {
+		Student[] student = new Student[100];
+		Student st1= new Student("it","Tung",new Date());
+		Student st2= new Student("it","Khang",new Date());	
+		
+		System.out.println(st1.toString());	
+		
+		StudentList studentList = new StudentList(new Student[100],0,null);
+		
+		int count=student.toString().length();
+
+		
+		System.out.println(studentList.addStudent(student,count,st1).toString());	
+	}
+	@Override
+	public String toString() {
+		return "DataBase [student=" + Arrays.toString(student) + "]";
+	}
+
+}
