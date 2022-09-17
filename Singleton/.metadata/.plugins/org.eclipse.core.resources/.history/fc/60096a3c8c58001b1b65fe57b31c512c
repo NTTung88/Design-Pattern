@@ -1,0 +1,9 @@
+package lab01_03_qld;
+
+import java.util.Date;
+
+public class Lecturer {
+	private String name;
+	private Date birthDate;
+	private String degree;
+}

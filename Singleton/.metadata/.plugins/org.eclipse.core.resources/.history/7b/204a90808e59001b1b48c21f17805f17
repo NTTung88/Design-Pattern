@@ -1,0 +1,16 @@
+package lab01_03_qld;
+
+import java.util.List;
+
+public class MainQLD{
+	private static Student listStudent(){
+		Student st1 = new Student("Tung",null,null,null);
+		System.out.println("Student Name:"+ st1.getName());
+		return st1;
+	}
+
+	public static void main(String[] args) {
+	
+		Student test1 = listStudent();
+	}
+}

@@ -1,0 +1,29 @@
+package lab01_03_qld;
+import java.util.Date;
+import java.util.List;
+
+public class MainQLD{
+	
+	private static Lecturer listLecturer() {
+		 Lecturer ll = new Lecturer("Mai van manh",null,"Thac si");
+		return ll;
+	}
+	private static Course listCourse() {
+		Course lc = new Course("NLP",10,null);
+		return lc;
+	}
+
+	private static Grade listGrade() {
+		Grade lg = new Grade(null,3);
+		return lg;
+	}
+	private static Student listStudent(){
+		List<Grade> list= (List<Grade>) new Grade(null,3);
+		Student st1 = new Student("Tung",null,null,null);
+		System.out.println("Student Name:"+ st1.getName());
+		return st1;
+	}
+	public static void main(String[] args) {
+		Student test1 = listStudent();
+	}
+}

@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\email\Desktop\Design Pattern\tungnt_51800649_lap01_ws\.metadata\.plugins\org.eclipse.jdt.core
+1090190650.index
+788867026.index
+690740700.index
+3903128092.index

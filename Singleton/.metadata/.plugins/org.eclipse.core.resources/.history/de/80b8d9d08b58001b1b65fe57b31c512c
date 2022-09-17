@@ -1,0 +1,7 @@
+package lab01_03_qld;
+
+public class Course {
+	private String name;
+	private int credit;
+	private Lecturer lecturer;
+}

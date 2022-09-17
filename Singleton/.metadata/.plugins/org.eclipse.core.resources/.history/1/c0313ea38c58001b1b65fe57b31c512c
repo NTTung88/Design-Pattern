@@ -1,0 +1,6 @@
+package lab01_03_qld;
+
+public class Grade {
+	private Course course;
+	private double grade;
+}
