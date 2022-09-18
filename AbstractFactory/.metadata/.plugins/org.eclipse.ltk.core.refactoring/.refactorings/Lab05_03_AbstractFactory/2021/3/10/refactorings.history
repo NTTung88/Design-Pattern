@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;lab05.dp.tdtu.ChineseFoodFactor.java&apos; to &apos;ChineseFoodFactory.java&apos;&#x0D;&#x0A;- Original project: &apos;Lab05_03_AbstractFactory&apos;&#x0D;&#x0A;- Original element: &apos;lab05.dp.tdtu.ChineseFoodFactor.java&apos;&#x0D;&#x0A;- Renamed element: &apos;lab05.dp.tdtu.ChineseFoodFactory.java&apos;" description="Rename compilation unit &apos;ChineseFoodFactor.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;lab05.dp.tdtu{ChineseFoodFactor.java" name="ChineseFoodFactory.java" references="false" stamp="1614822450747" version="1.0"/>
+</session>

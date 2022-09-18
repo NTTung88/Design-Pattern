@@ -1,0 +1,32 @@
+package lab05.dp.tdtu;
+
+3
+import org.trishinfotech.abstractfactory.acct.Account;
+4
+import org.trishinfotech.abstractfactory.acct.AccountType;
+5
+import org.trishinfotech.abstractfactory.acct.InterestStrategy;
+6
+7
+public class SavingAccount extends Account {
+8
+9
+    public SavingAccount(long accountNo, String accountHolderName) {
+10
+        super(accountNo, accountHolderName, AccountType.SAVING);
+11
+        setInterestStrategy(InterestStrategy.COMPOUND);
+12
+    }
+13
+14
+    @Override
+15
+    public double getInterest(int term) {
+16
+        return this.getInterestStrategy().getInterest(accountType, amount, term);
+17
+    }
+18
+19
+}

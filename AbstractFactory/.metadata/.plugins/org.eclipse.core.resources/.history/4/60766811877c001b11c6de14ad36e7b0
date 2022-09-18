@@ -1,0 +1,67 @@
+package lab05.dp.tdtu;
+
+public enum InterestStrategy {
+4
+5
+    SIMPLE ("Simple Interest") {
+6
+        @Override
+7
+        public double getInterest(AccountType accountType, double amount, int term) {
+8
+            if (accountType != null) {
+9
+                return ((amount * term * accountType.getRate()) / 100);
+10
+            }
+11
+            return 0.0d;
+12
+        }
+13
+    },
+14
+    COMPOUND ("Compound Interest") {
+15
+        @Override
+16
+        public double getInterest(AccountType accountType, double amount, int term) {
+17
+            if (accountType != null) {
+18
+                return amount * Math.pow(1.0 + accountType.getRate() / 100.0, term) - amount;
+19
+            }
+20
+            return 0.0d;
+21
+        }
+22
+    };
+23
+    
+24
+    private String name;
+25
+    
+26
+    InterestStrategy(String name) {
+27
+        this.name = name;
+28
+    }
+29
+    
+30
+    public abstract double getInterest(AccountType accountType, double amount, int term);
+31
+32
+    public String getName() {
+33
+        return name;
+34
+    }
+35
+    
+36
+}

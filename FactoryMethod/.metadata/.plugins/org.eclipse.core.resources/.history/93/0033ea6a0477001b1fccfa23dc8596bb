@@ -1,0 +1,17 @@
+package bai02.lab04.dp.tdtu;
+
+public class SortedList {
+	private ArrayList<int> list = new ArrayList<int>();
+	public void add(int number) {
+	list.add(number);
+	}
+	public void quickSort() {
+	//sort the list increase
+	}
+	public void insertionSort() {
+	//sort the list decrease
+	}
+	public void selectionSort() {
+	//sort the list decrease
+	}
+}

@@ -1,0 +1,12 @@
+package Lab10.dp.tdtu;
+
+import java.util.logging.Logger;
+
+public class TestApp {
+	public static void main(String[] args[]) {
+		Logger log = new DefaultLogger();
+		Logger zipLog = new ZipLoggerDecorator(log);
+		
+		zipLog.log("Test");
+	}
+}

@@ -1,0 +1,160 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="panel1.Locked" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <metadata name="panel2.Locked" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <metadata name="label1.Locked" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <metadata name="label2.Locked" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnExit.Locked" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnLogin.Locked" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtPassWord.Locked" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtUserName.Locked" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <metadata name="panel2.Locked" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <metadata name="panel4.Locked" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <metadata name="label4.Locked" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <metadata name="panel4.Locked" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=4.0.2.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
+  <data name="panel4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <metadata name="label4.Locked" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <metadata name="label1.Locked" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <metadata name="label2.Locked" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnExit.Locked" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnLogin.Locked" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtPassWord.Locked" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtUserName.Locked" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <metadata name="label3.Locked" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <metadata name="panel3.Locked" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+</root>

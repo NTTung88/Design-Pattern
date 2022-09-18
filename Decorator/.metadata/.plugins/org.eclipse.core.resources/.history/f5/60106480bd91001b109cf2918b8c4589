@@ -1,0 +1,15 @@
+package Lab10.dp.tdtu;
+
+public class ZipLoggerDecorator extends LoggerDecorator{
+	
+	public ZipLoggerDecorator(Logger logger) {
+		super(logger);
+	}
+	
+	public void log(String msg) {
+		System.out.println("Default Logger" +msg);
+		
+		this.logger.log(msg);
+	}
+
+}

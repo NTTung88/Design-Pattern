@@ -1,0 +1,9 @@
+package bai04.lab04.dp.tdtu;
+
+import java.awt.Point;
+
+public class Rectangle implement AShape{
+	public void draw() {
+		
+	}
+}

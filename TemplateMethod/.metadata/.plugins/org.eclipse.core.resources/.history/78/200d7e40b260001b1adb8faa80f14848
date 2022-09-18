@@ -1,0 +1,27 @@
+package headfirst.dp.tdtu;
+
+
+	
+	public abstract class CaffeineBeverageWithHook{
+		public void prepareRecipe() {
+			boiWater();
+			brew();
+			pourtInCup();
+			if (customerWantsCondiments()) {
+				addCondiments();
+			}
+		}
+		public abstract void brew();
+		public abstract void addCondiments();
+		
+		public void boiWater() {
+			System.out.println("Boiling Water");
+		}
+		public void pourTnCup() {
+			System.out.println("Pouring into cup");
+		}
+		public boolean customerWantsCondiments() {
+			return true;
+		}
+	}
+

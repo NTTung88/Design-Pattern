@@ -1,0 +1,10 @@
+package lap08.dp.tdtu;
+
+public class MyApp {
+	ISimpleFTP ftp;
+	public void setFTP;
+	public doSomething() {
+		ftp.connectServer();
+		ftp.sendAMsg("abc");
+	}
+}

@@ -1,0 +1,9 @@
+package lap08.dp.tdtu;
+
+public class MyFTP implements ISimpleFTP{
+	public void sendMsg(String msg) {
+		// send a message
+	}
+	
+
+}

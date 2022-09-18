@@ -1,0 +1,157 @@
+package lab05.dp.tdtu;
+
+public abstract class Account {
+4
+5
+    protected long accountNo;
+6
+    protected String accountHolderName;
+7
+    protected AccountType accountType;
+8
+    protected InterestStrategy interestStrategy;
+9
+    protected double amount;
+10
+11
+    public Account() {
+12
+        super();
+13
+    }
+14
+15
+    public Account(long accountNo, String accountHolderName, AccountType accountType) {
+16
+        this();
+17
+        this.accountNo = accountNo;
+18
+        this.accountHolderName = accountHolderName;
+19
+        this.accountType = accountType;
+20
+    }
+21
+22
+    public long getAccountNo() {
+23
+        return accountNo;
+24
+    }
+25
+26
+    public void setAccountNo(long accountNo) {
+27
+        this.accountNo = accountNo;
+28
+    }
+29
+30
+    public String getAccountHolderName() {
+31
+        return accountHolderName;
+32
+    }
+33
+34
+    public void setAccountHolderName(String accountHolderName) {
+35
+        this.accountHolderName = accountHolderName;
+36
+    }
+37
+38
+    public AccountType getAccountType() {
+39
+        return accountType;
+40
+    }
+41
+42
+    public void setAccountType(AccountType accountType) {
+43
+        this.accountType = accountType;
+44
+    }
+45
+46
+    public InterestStrategy getInterestStrategy() {
+47
+        return interestStrategy;
+48
+    }
+49
+50
+    public void setInterestStrategy(InterestStrategy interestStrategy) {
+51
+        this.interestStrategy = interestStrategy;
+52
+    }
+53
+54
+    public double getAmount() {
+55
+        return amount;
+56
+    }
+57
+58
+    public void setAmount(double amount) {
+59
+        this.amount = amount;
+60
+    }
+61
+62
+    public void deposit(double amount) {
+63
+        // check for only positive/valid amount
+64
+        if (amount > 0.0d) {
+65
+            this.amount += amount;
+66
+        }
+67
+    }
+68
+69
+    public void withdraw(double amount) {
+70
+        // check for only positive/valid amount and also for below than the available
+71
+        // amount in account
+72
+        if (amount > 0.0d && amount < this.amount) {
+73
+            this.amount -= amount;
+74
+        }
+75
+    }
+76
+77
+    public abstract double getInterest(int term);
+78
+79
+    @Override
+80
+    public String toString() {
+81
+        StringBuilder builder = new StringBuilder();
+82
+        builder.append("Account [accountNo=").append(getAccountNo()).append(", accountHolderName=")
+83
+                .append(getAccountHolderName()).append(", accountType=").append(getAccountType()).append(", rate=")
+84
+                .append((getAccountType() != null) ? getAccountType().getRate() : 0.0d).append(", interestStrategy=")
+85
+                .append(getInterestStrategy().getName()).append(", amount=").append(getAmount()).append("]");
+86
+        return builder.toString();
+87
+    }
+88
+89
+}

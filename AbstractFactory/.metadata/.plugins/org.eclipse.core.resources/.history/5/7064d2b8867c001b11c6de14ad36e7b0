@@ -1,0 +1,60 @@
+package lab05.dp.tdtu;
+
+import org.trishinfotech.abstractfactory.acct.Account;
+4
+import org.trishinfotech.abstractfactory.acct.AccountType;
+5
+6
+public abstract class DepositAccount extends Account {
+7
+8
+    protected int termInMonths;
+9
+    private boolean withdrawDone;
+10
+    
+11
+    public DepositAccount(long accountNo, String accountHolderName, AccountType accountType, int termInMonths) {
+12
+        super(accountNo, accountHolderName, accountType);
+13
+        this.termInMonths = termInMonths;
+14
+    }
+15
+16
+    public int getTermInMonths() {
+17
+        return termInMonths;
+18
+    }
+19
+20
+    public void setTermInMonths(int termInMonths) {
+21
+        this.termInMonths = termInMonths;
+22
+    }
+23
+24
+    @Override
+25
+    public void withdraw(double amount) {
+26
+        // ignore the given amount since we can withdraw whole amount at the maturity
+27
+        if (!withdrawDone && this.amount > 0.0d) {
+28
+            this.amount = 0.0d;
+29
+            withdrawDone = true;
+30
+        } else {
+31
+            System.out.println("Sorry! We can withdraw whole amount only once from a Deposit Account!");
+32
+        }
+33
+    }
+34
+}

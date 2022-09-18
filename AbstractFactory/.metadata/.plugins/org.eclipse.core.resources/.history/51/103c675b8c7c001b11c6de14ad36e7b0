@@ -1,0 +1,9 @@
+package lab05.dp.tdtu;
+
+public class AbstractFoodFactory extends AbstractFoodFactory {
+	 
+    public AbstractFood placeOrder(String itemName, int quantity) {
+        return new ChineseFood();
+    }
+ 
+}

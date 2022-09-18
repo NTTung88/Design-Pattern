@@ -1,0 +1,30 @@
+E:\Lab06_RemoteControl\bin\Debug\Lab06_RemoteControl.exe.config
+E:\Lab06_RemoteControl\bin\Debug\Lab06_RemoteControl.exe
+E:\Lab06_RemoteControl\bin\Debug\Lab06_RemoteControl.pdb
+E:\Lab06_RemoteControl\obj\Debug\Lab06_RemoteControl.csprojAssemblyReference.cache
+E:\Lab06_RemoteControl\obj\Debug\Lab06_RemoteControl.RemoteControl.resources
+E:\Lab06_RemoteControl\obj\Debug\Lab06_RemoteControl.Properties.Resources.resources
+E:\Lab06_RemoteControl\obj\Debug\Lab06_RemoteControl.csproj.GenerateResource.cache
+E:\Lab06_RemoteControl\obj\Debug\Lab06_RemoteControl.csproj.CoreCompileInputs.cache
+E:\Lab06_RemoteControl\obj\Debug\Lab06_RemoteControl.exe
+E:\Lab06_RemoteControl\obj\Debug\Lab06_RemoteControl.pdb
+E:\Lab06_RemoteControl\Lab06_RemoteControl\bin\Debug\Lab06_RemoteControl.exe.config
+E:\Lab06_RemoteControl\Lab06_RemoteControl\bin\Debug\Lab06_RemoteControl.exe
+E:\Lab06_RemoteControl\Lab06_RemoteControl\bin\Debug\Lab06_RemoteControl.pdb
+E:\Lab06_RemoteControl\Lab06_RemoteControl\obj\Debug\Lab06_RemoteControl.csprojAssemblyReference.cache
+E:\Lab06_RemoteControl\Lab06_RemoteControl\obj\Debug\Lab06_RemoteControl.RemoteControl.resources
+E:\Lab06_RemoteControl\Lab06_RemoteControl\obj\Debug\Lab06_RemoteControl.Properties.Resources.resources
+E:\Lab06_RemoteControl\Lab06_RemoteControl\obj\Debug\Lab06_RemoteControl.csproj.GenerateResource.cache
+E:\Lab06_RemoteControl\Lab06_RemoteControl\obj\Debug\Lab06_RemoteControl.csproj.CoreCompileInputs.cache
+E:\Lab06_RemoteControl\Lab06_RemoteControl\obj\Debug\Lab06_RemoteControl.exe
+E:\Lab06_RemoteControl\Lab06_RemoteControl\obj\Debug\Lab06_RemoteControl.pdb
+C:\Users\email\Desktop\Design Pattern\tungnt_51800649_lab06_ws\Lab06_02_Command_UIForRemote\obj\Debug\Lab06_RemoteControl.csprojAssemblyReference.cache
+C:\Users\email\Desktop\Design Pattern\tungnt_51800649_lab06_ws\Lab06_02_Command_UIForRemote\obj\Debug\Lab06_RemoteControl.RemoteControl.resources
+C:\Users\email\Desktop\Design Pattern\tungnt_51800649_lab06_ws\Lab06_02_Command_UIForRemote\obj\Debug\Lab06_RemoteControl.Properties.Resources.resources
+C:\Users\email\Desktop\Design Pattern\tungnt_51800649_lab06_ws\Lab06_02_Command_UIForRemote\obj\Debug\Lab06_RemoteControl.csproj.GenerateResource.cache
+C:\Users\email\Desktop\Design Pattern\tungnt_51800649_lab06_ws\Lab06_02_Command_UIForRemote\obj\Debug\Lab06_RemoteControl.csproj.CoreCompileInputs.cache
+C:\Users\email\Desktop\Design Pattern\tungnt_51800649_lab06_ws\Lab06_02_Command_UIForRemote\obj\Debug\Lab06_RemoteControl.exe
+C:\Users\email\Desktop\Design Pattern\tungnt_51800649_lab06_ws\Lab06_02_Command_UIForRemote\obj\Debug\Lab06_RemoteControl.pdb
+C:\Users\email\Desktop\Design Pattern\tungnt_51800649_lab06_ws\Lab06_02_Command_UIForRemote\bin\Debug\Lab06_RemoteControl.exe.config
+C:\Users\email\Desktop\Design Pattern\tungnt_51800649_lab06_ws\Lab06_02_Command_UIForRemote\bin\Debug\Lab06_RemoteControl.exe
+C:\Users\email\Desktop\Design Pattern\tungnt_51800649_lab06_ws\Lab06_02_Command_UIForRemote\bin\Debug\Lab06_RemoteControl.pdb

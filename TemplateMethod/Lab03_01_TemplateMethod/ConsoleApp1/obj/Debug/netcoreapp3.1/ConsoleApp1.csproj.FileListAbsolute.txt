@@ -1,0 +1,12 @@
+C:\Users\email\Desktop\Design Pattern\tungnt_51800649_lab03_ws\Lab03_01_TemplateMethod\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+C:\Users\email\Desktop\Design Pattern\tungnt_51800649_lab03_ws\Lab03_01_TemplateMethod\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+C:\Users\email\Desktop\Design Pattern\tungnt_51800649_lab03_ws\Lab03_01_TemplateMethod\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+C:\Users\email\Desktop\Design Pattern\tungnt_51800649_lab03_ws\Lab03_01_TemplateMethod\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+C:\Users\email\Desktop\Design Pattern\tungnt_51800649_lab03_ws\Lab03_01_TemplateMethod\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+C:\Users\email\Desktop\Design Pattern\tungnt_51800649_lab03_ws\Lab03_01_TemplateMethod\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+C:\Users\email\Desktop\Design Pattern\tungnt_51800649_lab03_ws\Lab03_01_TemplateMethod\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\email\Desktop\Design Pattern\tungnt_51800649_lab03_ws\Lab03_01_TemplateMethod\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+C:\Users\email\Desktop\Design Pattern\tungnt_51800649_lab03_ws\Lab03_01_TemplateMethod\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\email\Desktop\Design Pattern\tungnt_51800649_lab03_ws\Lab03_01_TemplateMethod\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+C:\Users\email\Desktop\Design Pattern\tungnt_51800649_lab03_ws\Lab03_01_TemplateMethod\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
+C:\Users\email\Desktop\Design Pattern\tungnt_51800649_lab03_ws\Lab03_01_TemplateMethod\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache

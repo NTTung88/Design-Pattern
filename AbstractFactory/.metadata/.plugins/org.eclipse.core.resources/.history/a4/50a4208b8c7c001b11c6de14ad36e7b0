@@ -1,0 +1,8 @@
+package lab05.dp.tdtu;
+
+public class AbstractFoodFactory extends AbstractFoodFactory {
+	@Override
+    public AbstractFood placeOrder(String itemName, int quantity) {
+        return new ItalianFood(itemName,quantity);
+    }
+}

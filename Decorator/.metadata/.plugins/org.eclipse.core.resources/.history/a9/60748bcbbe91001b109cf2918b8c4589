@@ -1,0 +1,10 @@
+package Lab10.dp.tdtu;
+
+public class TestApp {
+	public static void main(String[] args[]) {
+		DefaultLogger log = new DefaultLogger();
+		ZipLoggerDecorator zipLog = new ZipLoggerDecorator(log);
+		
+		zipLog.log("Test");
+	}
+}

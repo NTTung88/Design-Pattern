@@ -1,0 +1,29 @@
+package lab05.dp.tdtu;
+
+import org.trishinfotech.abstractfactory.acct.AccountType;
+4
+import org.trishinfotech.abstractfactory.acct.InterestStrategy;
+5
+6
+public class RecurringDepositAccount extends DepositAccount {
+7
+8
+    public RecurringDepositAccount(long accountNo, String accountHolderName, int termInMonths) {
+9
+        super(accountNo, accountHolderName, AccountType.RECURRING_DEPOSIT, termInMonths);
+10
+        setInterestStrategy(InterestStrategy.COMPOUND);
+11
+    }
+12
+13
+    @Override
+14
+    public double getInterest(int term) {
+15
+        return this.getInterestStrategy().getInterest(accountType, amount, term);
+16
+    }
+17
+18
+}

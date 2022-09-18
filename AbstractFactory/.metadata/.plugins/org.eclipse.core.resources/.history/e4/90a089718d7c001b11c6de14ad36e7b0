@@ -1,0 +1,5 @@
+package lab05.dp.tdtu;
+
+public AbstractFood placeOrder(String itemName, int quantity) {
+    return new ItalianFood(itemName,quantity);
+}

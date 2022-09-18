@@ -1,0 +1,60 @@
+package lab05.dp.tdtu;
+
+import org.trishinfotech.abstractfactory.acct.Account;
+4
+import org.trishinfotech.abstractfactory.acct.AccountType;
+5
+6
+public abstract class LoanAccount extends Account {
+7
+8
+    protected int termInMonths;
+9
+10
+    public LoanAccount(long accountNo, String accountHolderName, AccountType accountType, int termInMonths) {
+11
+        super(accountNo, accountHolderName, accountType);
+12
+        this.termInMonths = termInMonths;
+13
+    }
+14
+15
+    // since its a loan account, reversing the withdraw and deposit to make it responsibility
+16
+    // just to keep the example as simple as possible
+17
+    @Override
+18
+    public void deposit(double amount) {
+19
+        super.withdraw(amount);
+20
+    }
+21
+22
+    @Override
+23
+    public void withdraw(double amount) {
+24
+        super.deposit(amount);
+25
+    }
+26
+27
+    public int getTermInMonths() {
+28
+        return termInMonths;
+29
+    }
+30
+31
+    public void setTermInMonths(int termInMonths) {
+32
+        this.termInMonths = termInMonths;
+33
+    }
+34
+    
+35
+}

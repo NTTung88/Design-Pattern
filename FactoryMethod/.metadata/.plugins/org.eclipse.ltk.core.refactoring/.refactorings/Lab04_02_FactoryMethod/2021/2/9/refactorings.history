@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;lab04.dp.tdtu&apos; to &apos;bai01.lab04.dp.tdtu&apos;&#x0D;&#x0A;- Original project: &apos;Lab04_02_FactoryMethod&apos;&#x0D;&#x0A;- Original element: &apos;Lab04_02_FactoryMethod/src/lab04.dp.tdtu&apos;&#x0D;&#x0A;- Renamed element: &apos;Lab04_02_FactoryMethod/src/bai01.lab04.dp.tdtu&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;lab04.dp.tdtu&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;lab04.dp.tdtu" name="bai01.lab04.dp.tdtu" qualified="false" references="true" stamp="1614214414782" textual="false" version="1.0"/>
+</session>

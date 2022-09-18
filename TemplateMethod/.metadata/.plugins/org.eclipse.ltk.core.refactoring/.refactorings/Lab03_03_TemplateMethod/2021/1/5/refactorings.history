@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;headfirrst&apos; to &apos;headfirst&apos;&#x0D;&#x0A;- Original project: &apos;Lab03_03_TemplateMethod&apos;&#x0D;&#x0A;- Original element: &apos;Lab03_03_TemplateMethod/src/main/java/headfirrst&apos;&#x0D;&#x0A;- Renamed element: &apos;Lab03_03_TemplateMethod/src/main/java/headfirst&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;headfirrst&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;headfirrst" name="headfirst" qualified="false" references="true" stamp="1611821704728" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,51 @@
+package lab05.dp.tdtu;
+
+import org.trishinfotech.abstractfactory.acct.AccountType;
+4
+import org.trishinfotech.abstractfactory.acct.InterestStrategy;
+5
+6
+public class FixedDepositAccount extends DepositAccount {
+7
+8
+    private boolean depositDone;
+9
+    public FixedDepositAccount(long accountNo, String accountHolderName, int termInMonths) {
+10
+        super(accountNo, accountHolderName, AccountType.FIXED_DEPOSIT, termInMonths);
+11
+        setInterestStrategy(InterestStrategy.SIMPLE);
+12
+    }
+13
+14
+    @Override
+15
+    public double getInterest(int term) {
+16
+        return this.getInterestStrategy().getInterest(accountType, amount, term);
+17
+    }
+18
+19
+    @Override
+20
+    public void deposit(double amount) {
+21
+        if (!depositDone && amount > 0.0d) {
+22
+            this.amount = amount;
+23
+            depositDone = true;
+24
+        } else {
+25
+            System.out.println("Sorry! We can deposit only once in a Fixed Deposit Account!");
+26
+        }
+27
+    }
+28
+    
+29
+}

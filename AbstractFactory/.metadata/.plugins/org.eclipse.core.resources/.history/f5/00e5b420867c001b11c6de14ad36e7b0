@@ -1,0 +1,17 @@
+package lab05.dp.tdtu;
+
+3
+import org.trishinfotech.abstractfactory.acct.Account;
+4
+import org.trishinfotech.abstractfactory.acct.AccountOpeningDetails;
+5
+6
+public abstract class AbstractAccountFactory {
+7
+    
+8
+    public abstract Account createAccount(AccountOpeningDetails opendingDetails);
+9
+    
+10
+}

@@ -1,0 +1,8 @@
+package headfirst.dp.tdtu;
+
+public class Coffe extends CaffeineBeverage{
+	public void brew() {
+		
+	}
+
+}

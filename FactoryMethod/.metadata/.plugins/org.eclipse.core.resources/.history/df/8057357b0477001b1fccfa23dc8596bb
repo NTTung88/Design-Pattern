@@ -1,0 +1,26 @@
+package bai02.lab04.dp.tdtu;
+
+import java.util.ArrayList;
+
+public class SortedList {
+	private ArrayList<Integer> list = new ArrayList<>();
+	public void add(int number) {
+	list.add(number);
+	}
+	public void quickSort() {
+	//sort the list increase
+	}
+	public void insertionSort() {
+	//sort the list decrease
+	}
+	public void selectionSort() {
+	//sort the list decrease
+	}
+	
+	public void printList() {
+		System.out.println("Arraylist");
+		for (int element: list) {
+			System.out.println(element);
+		}
+	}
+}

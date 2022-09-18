@@ -1,0 +1,5 @@
+package headfirrst.dp.tdtu;
+
+public abstract class CaffeineBeverage {
+
+}
